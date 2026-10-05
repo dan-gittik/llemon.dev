@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>llemon</title>
+<meta name="description" content="llemon — coming soon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --paper: #faf5ee; --ink: #111111; --blue: #033aa7; --dot: #a01e1e; --grid: rgba(3, 58, 167, 0.07); }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #111111; --ink: #f5efe8; --blue: #7d9de0; --grid: rgba(125, 157, 224, 0.08); }
+  }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background-color: var(--paper);
+    background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 24px 24px;
+    color: var(--ink);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    display: grid;
+    place-items: center;
+    padding: 0 16px;
+  }
+  main { text-align: center; }
+  h1 { font-weight: 500; font-size: clamp(2.5rem, 9vw, 4.5rem); letter-spacing: -0.03em; margin: 0; }
+  h1 span { color: var(--dot); }
+  p { color: var(--blue); margin: 1rem 0 0; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<main>
+  <h1>llemon<span>.</span></h1>
+  <p>coming soon</p>
+</main>
+</body>
+</html>
